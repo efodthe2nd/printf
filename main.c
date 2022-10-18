@@ -23,6 +23,7 @@ int main(void)
 	 */
 	_printf("Length:[%d, %i]\n", len, len);
 	printf("Length:[%d, %i]\n", len2, len2);
+	_printf("%b\n", -98);
 
 	
 	return (0);

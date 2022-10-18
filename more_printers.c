@@ -14,14 +14,15 @@ int _print_int_binary(va_list args)
 	unsigned int x = 0;
 	int b = 0, new = 0;
 
-	new = va_arg(args, int);
+	new = va_arg(args, unsigned int);
 	x = new;
 	if (new < 0)
 	{
-		_write('1');
+		return (0);
+		/*_write('1');
 		new = new * -1;
 		x = new;
-		b += 1;
+		b += 1; */
 	}
 	while (x > 0)
 	{
