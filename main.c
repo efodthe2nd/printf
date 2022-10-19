@@ -11,10 +11,6 @@
 int main(void)
 {
 	int len, len2;
-	/**int len2;
-	 * unsigned int ui;
-	 * void *addr;
-	 */
 
 	len = _printf("Let's try to print a simple sentence. \n");
 	len2 = printf("Let's try to print a simple sentence. \n");
